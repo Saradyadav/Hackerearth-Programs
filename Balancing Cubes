@@ -1,0 +1,12 @@
+//This problem is asked in SEPTEMBER LONG CHALLENGE 2020 solved by me 
+#include <bits/stdc++.h>
+using namespace std;
+typedef long long int ll;
+int main()
+{
+    ll n;
+    cin>>n;
+    ll result =ceil((log(n)/log(3.0)));
+    cout<<result<<"\n";
+    return 0;
+}
